@@ -45,15 +45,15 @@ We chose the Agile methodology.
 (1)<font color = red>start()</font>  
 start method used to initialize game resources such as size of map,the number fo mines and the user interface of change the difficulty.
 (2)createGame()  
-createGame method used to create elements of the game such as generating mine positions, calculating mine positions around each block, creating buttons and timers.
+createGame method used to create elements of the game such as generating mine positions, calculating mine positions around each block, creating buttons and timers.  
 (3)handleLeftClick() 
 used to handle the left-click events.
 (4)handleRightClick() 
-used to handle the right-click events.
+used to handle the right-click events.  
 (5)revealAdjacentButtons() 
-used to uncovered the surrounding squares.
+used to uncovered the surrounding squares.  
 (6)gameOver() 
-used to quit the game.
+used to quit the game.  
 
 
   
