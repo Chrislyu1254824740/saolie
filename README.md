@@ -42,7 +42,7 @@ We chose the Agile methodology.
 
 ***Design***
 
-(1)<font color = "red"> public void start(Stage primaryStage) </font>
+(1)<font color = red> public void start(Stage primaryStage)</font>
 
   
    
