@@ -75,7 +75,139 @@ After selecting the difficulty of the game, get the thunder number set by the di
 (1)<img src=https://user-images.githubusercontent.com/130427783/232304317-31475a89-a4ce-4ff8-8e4e-63b3a73dc6e1.jpg width= "400px">
 (2)<img src=https://user-images.githubusercontent.com/130427783/232304433-43d5eefc-0c29-4519-8045-5a4f33abb26b.jpg width = "400px">  
 (3)<img src=https://user-images.githubusercontent.com/130427783/232304532-0fada794-d744-4b75-9562-9945388e8095.jpg width = "400px">
-(4)<img src=https://user-images.githubusercontent.com/130427783/232304490-7580b15c-c8ce-46dd-b7cc-fb56631596e8.jpg width = "400px">
+(4)<img src=https://user-images.githubusercontent.com/130427783/232304490-7580b15c-c8ce-46dd-b7cc-fb56631596e8.jpg width = "400px">  
+
+
+***Detailed game design***
+
+The game interface is relatively simple compared with the minesweeper game, which is mainly composed of the game data display area and minefield. It is important to initialize the mine area and we use a loop to initialize it. Players can click on the game after the menu bar to select the difficulty of minesweeper game, different difficulties represent different mine total and size, custom difficulty will also set the number and size of mines, set these data are stored in several variables, when the minefield to initialize the program will call the variable property, and then through a loop to complete the initialization. The main code is as follows:
+
+@Override
+    public void start(Stage primaryStage) {
+        primaryStage.setTitle("Minesweeper");
+
+        Button easyButton = new Button("Easy");
+        easyButton.setOnAction(event->{
+            mines = 10;
+            rows = 8;
+            columns = 8;
+            createGame();
+            GridPane root = new GridPane();
+            root.setPadding(new Insets(10));
+            root.setHgap(10);
+            root.setVgap(10);
+
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < columns; j++) {
+                    Button button = buttons[i][j];
+                    root.add(button, j, i);
+                    final int row = i; // 将i声明为final类型变量
+                    final int col = j; // 将j声明为final类型变量
+                    button.setOnMouseClicked(e -> {
+                        if (e.getButton() == MouseButton.PRIMARY) {
+                            handleLeftClick(row, col); // 使用final变量
+                        } else if (e.getButton() == MouseButton.SECONDARY) {
+                            handleRightClick(row, col); // 使用final变量
+                        }
+                    });
+                }
+            }
+
+            timerLabel = new Label("Time: 0");
+            remainingMinesLabel = new Label("Mines: " + remainingMines);
+            HBox hbox = new HBox(timerLabel, remainingMinesLabel);
+            hbox.setPadding(new Insets(10));
+            root.add(hbox, 0, rows, columns, 1);
+            Scene scene2 = new Scene(root);
+            primaryStage.setScene(scene2);
+            //show
+            primaryStage.show();
+        });
+
+        Button mediumButton = new Button("Medium");
+        mediumButton.setOnAction(event->{
+            mines = 15;
+            rows = 10;
+            columns = 10;
+            createGame();
+            GridPane root = new GridPane();
+            root.setPadding(new Insets(10));
+            root.setHgap(10);
+            root.setVgap(10);
+
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < columns; j++) {
+                    Button button = buttons[i][j];
+                    root.add(button, j, i);
+                    final int row = i; // 将i声明为final类型变量
+                    final int col = j; // 将j声明为final类型变量
+                    button.setOnMouseClicked(e -> {
+                        if (e.getButton() == MouseButton.PRIMARY) {
+                            handleLeftClick(row, col); // 使用final变量
+                        } else if (e.getButton() == MouseButton.SECONDARY) {
+                            handleRightClick(row, col); // 使用final变量
+                        }
+                    });
+                }
+            }
+
+            timerLabel = new Label("Time: 0");
+            remainingMinesLabel = new Label("Mines: " + remainingMines);
+            HBox hbox = new HBox(timerLabel, remainingMinesLabel);
+            hbox.setPadding(new Insets(10));
+            root.add(hbox, 0, rows, columns, 1);
+            Scene scene2 = new Scene(root);
+            primaryStage.setScene(scene2);
+            //show
+            primaryStage.show();
+        });
+
+        Button hardButton = new Button("Hard");
+        hardButton.setOnAction(event->{
+            mines = 30;
+            rows =14;
+            columns = 14;
+            createGame();
+            GridPane root = new GridPane();
+            root.setPadding(new Insets(10));
+            root.setHgap(10);
+            root.setVgap(10);
+
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < columns; j++) {
+                    Button button = buttons[i][j];
+                    root.add(button, j, i);
+                    final int row = i; // 将i声明为final类型变量
+                    final int col = j; // 将j声明为final类型变量
+                    button.setOnMouseClicked(e -> {
+                        if (e.getButton() == MouseButton.PRIMARY) {
+                            handleLeftClick(row, col); // 使用final变量
+                        } else if (e.getButton() == MouseButton.SECONDARY) {
+                            handleRightClick(row, col); // 使用final变量
+                        }
+                    });
+                }
+            }
+
+            timerLabel = new Label("Time: 0");
+            remainingMinesLabel = new Label("Mines: " + remainingMines);
+            HBox hbox = new HBox(timerLabel, remainingMinesLabel);
+            hbox.setPadding(new Insets(10));
+            root.add(hbox, 0, rows, columns, 1);
+            Scene scene2 = new Scene(root);
+            primaryStage.setScene(scene2);
+            //show
+            primaryStage.show();
+        });
+
+
+        VBox difficultyPane = new VBox(10, easyButton, mediumButton, hardButton);
+        difficultyPane.setAlignment(Pos.CENTER);
+
+        Scene scene = new Scene(difficultyPane, 300, 300);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
 
 
 
