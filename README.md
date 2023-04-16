@@ -370,6 +370,14 @@ Hard level: mines = 30;rows = 14;columns= 14
             gameWon();  
         }  
     }  
+    
+   # Members
+   
+   # Schedule
+   This is the schedule of our team
+   
+   ![屏幕截图 2023-04-16 210445](https://user-images.githubusercontent.com/130427783/232313390-bf5fd609-6877-4005-a3e7-54d32bd385ea.png)
+
 
 
   
