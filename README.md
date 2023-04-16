@@ -68,10 +68,10 @@ After selecting the difficulty of the game, get the thunder number set by the di
 ![屏幕截图 2023-04-16 185857](https://user-images.githubusercontent.com/130427783/232303048-b335e4ab-173a-4e1d-87c1-d67ceb0726ad.png)  
 
 ***Interface Planing***  
-(1) Interface  
-(2）Selective difficulty  
-(3) MineNumberArea  
-(4) MineArea    
+(1) Selective difficulty   
+(2）Easy Level 
+(3) Difficut Level
+(4) MineArea & MineNumberArea      
 <img src=https://user-images.githubusercontent.com/130427783/232304317-31475a89-a4ce-4ff8-8e4e-63b3a73dc6e1.jpg width= "400px">
 <img src=https://user-images.githubusercontent.com/130427783/232304433-43d5eefc-0c29-4519-8045-5a4f33abb26b.jpg width = "400px">
 <img src=https://user-images.githubusercontent.com/130427783/232304532-0fada794-d744-4b75-9562-9945388e8095.jpg width = "400px">
