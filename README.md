@@ -55,7 +55,7 @@ used to uncovered the surrounding squares.
 (6) *gameOver()*   
 used to quit the game.  
 (7) *checkWin()*  
-used to Check whether the game is won
+used to Check whether the game is won.  
 (8) *gameWon()*    
 used to show the result of game
 
