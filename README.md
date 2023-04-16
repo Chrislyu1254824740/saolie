@@ -373,14 +373,14 @@ Hard level: mines = 30;rows = 14;columns= 14
         }  
     }  
     
-   # Members
+   ## Members
    
-   # Schedule
+   ## Schedule
    This is the schedule of our team
    
    ![屏幕截图 2023-04-16 210445](https://user-images.githubusercontent.com/130427783/232313390-bf5fd609-6877-4005-a3e7-54d32bd385ea.png)  
    
-   # Algorithm
+   ## Algorithm
    
    
 
@@ -392,11 +392,11 @@ Minesweeper game requires random mines in the minefield, the number of mines sho
 
 When the grid without thunder is clicked, it will display all the thunder number in the 8 grids around the grid, and the player can judge the location of the thunder through this number, so the calculation of the thunder number around is also very important.
 
-# Current status of software
+## Current status of software
 
 So far our project has been relatively simple， we still have a lot of unfinished features like leaderboards.Considering that Minesweeper is a classic game, we will continue to improve it in the future to attract more users.
 
-# Future plan
+## Future plan
 
 1. Multiplayer Modes: Adding multiplayer modes to Minesweeper would allow players to compete against each other in real-time. This could involve adding features like leaderboards and matchmaking to connect players of similar skill levels.  
 2. More Customization Options: Providing more customization options for players, such as the ability to change the theme, difficulty level, and game board size, would make the game more engaging and appealing to players.  
