@@ -6,8 +6,8 @@
     -[Development Process](#Development-Process)    
     -[Members](#Members)  
     -[Schedule](#Schedule)  
-    -[Algorithm](#Algorithm)
-    -[Current status of software](#Current-status-of-your-software)
+    -[Algorithm](#Algorithm)  
+    -[Current status of software](#Current-status-of-your-software)  
     -[Future Plan](#Future Plan)
 
 
