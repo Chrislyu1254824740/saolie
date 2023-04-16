@@ -3,7 +3,7 @@
     -[Type of Software development process & reason](##Type-of-Software-development-process-&-reason)  
     -[Possible usage of your project](##Possible-usage-of-your-project)  
 -[Software development plan](#Software-development-plan)
-    -[Development Process](##Development-Process)  
+    -[Development Process](##Development-Process)    
     -[Members](##Menbers)  
     -[Schedule](##Schedule)  
     -
@@ -29,7 +29,7 @@ We chose the Agile methodology.
 5. Outline Gaming Communities  
 
 # Software development plan
-## Development process
+## Development Process
    
  ***Feasibility analysis*** 
  
@@ -42,7 +42,7 @@ We chose the Agile methodology.
 
 ***Design***
 
-(1)<font color = red>public void start(Stage primaryStage)</font>
+(1)<font color = "red"> public void start(Stage primaryStage) </font>
 
   
    
