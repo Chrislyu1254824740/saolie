@@ -354,6 +354,7 @@ Hard level: mines = 30;rows = 14;columns= 14
             root.setHgap(10);
             root.setVgap(10);
 
+***
 
 
 
