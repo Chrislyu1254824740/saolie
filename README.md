@@ -31,13 +31,19 @@ We chose the Agile methodology.
 # Software development plan
 ## Development process
    
- *Feasibility analysis：*  
+ ***Feasibility analysis*** 
+ 
 （1）Investment feasibility: Minesweeper occupies less memory and can be mounted on any platform, which has investment value.  
 （2）Financial feasibility: From the perspective of the beneficiaries, it doesn't take much money to develop this minesweeper.  
 （3）Organizational feasibility: feasible project planning, personnel allocation, good communication among team members, regular meetings and discussions to ensure timely delivery of projects.  
 （4）Economic feasibility: it can create benefits for the enterprise, increase jobs for the society, and improve people's life quality.  
 （5）Legal feasibility: Any product needs to ensure that it does not violate the law before it can be designed. But Minesweeper doesn't break any laws and doesn't come into conflict with companies. The development of the game does not violate anyone's interests, nor does it break the law.  
 （6）Technical feasibility: The function of Minesweeper game is simple, only a slightly experienced developer can easily develop, so the technical aspect is not too big problem, the main need to understand the gameplay of minesweeper in order to better design and implementation of the game.  
+
+***Design***
+
+(1)<font color = red>public void start(Stage primaryStage)</font>
+
   
    
 
