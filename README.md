@@ -7,8 +7,8 @@
     -[Members](#Members)  
     -[Schedule](#Schedule)  
     -[Algorithm](#Algorithm)  
-    -[Current status of software](#Current-status-of-your-software)  
-    -[Future Plan](#Future Plan)
+    -[Current status of software](#Current-status-of-software)  
+    -[Future Plan](#Future-Plan)
 
 
 
