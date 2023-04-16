@@ -60,6 +60,9 @@ used to Check whether the game is won.
 used to show the result of game。
 
 ***Process Planing***  
+
+There are three parts: after the difficulty is selected, the first time the player clicks on the grid, and the automatic opening of the grid for non-mines.
+After selecting the difficulty of the game, get the thunder number set by the difficulty and the interface size display interface, but there is no ray. When the player clicks the grid for the first time, the system randomly mines and activates the timer.  
 ![屏幕截图 2023-04-16 185857](https://user-images.githubusercontent.com/130427783/232303048-b335e4ab-173a-4e1d-87c1-d67ceb0726ad.png)
 
 
