@@ -363,7 +363,7 @@ Hard level: mines = 30;rows = 14;columns= 14
             for (int j = 0; j < columns; j++) {
                 if (!minesArray[i][j] && !buttons[i][j].getStyle().equals("-fx-font-size: 15px; -fx-background-color: #cccccc")) {
                     revealedCount++;
-                }
+                
             }
         }
         if (revealedCount == rows * columns - mines) {
