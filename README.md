@@ -47,7 +47,7 @@ start method used to initialize game resources such as size of map,the number fo
 (2)createGame()  
 createGame method used to create elements of the game such as generating mine positions, calculating mine positions around each block, creating buttons and timers.  
 (3)handleLeftClick() 
-used to handle the left-click events.
+used to handle the left-click events.  
 (4)handleRightClick() 
 used to handle the right-click events.  
 (5)revealAdjacentButtons() 
