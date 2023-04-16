@@ -330,8 +330,8 @@ Hard level: mines = 30;rows = 14;columns= 14
             root.setPadding(new Insets(10));
             root.setHgap(10);
             root.setVgap(10);
-
- Button mediumButton = new Button("Medium");
+            
+          Button mediumButton = new Button("Medium");
         mediumButton.setOnAction(event->{
             mines = 15;
             rows = 10;
@@ -341,9 +341,9 @@ Hard level: mines = 30;rows = 14;columns= 14
             root.setPadding(new Insets(10));
             root.setHgap(10);
             root.setVgap(10);
-            
 
-   Button hardButton = new Button("Hard");
+ 
+        Button hardButton = new Button("Hard");
         hardButton.setOnAction(event->{
             mines = 30;
             rows =14;
