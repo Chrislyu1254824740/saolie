@@ -317,7 +317,7 @@ Easy level: mines = 10; rows = 8; columns = 8
 Medium level : mines = 15; rows= 10; columns = 10
 Hard level: mines = 30;rows = 14;columns= 14
 
-(1) public void start(Stage primaryStage) {
+ public void start(Stage primaryStage) {
         primaryStage.setTitle("Minesweeper");
 
         Button easyButton = new Button("Easy");
@@ -331,7 +331,7 @@ Hard level: mines = 30;rows = 14;columns= 14
             root.setHgap(10);
             root.setVgap(10);
 
-(2) Button mediumButton = new Button("Medium");
+ Button mediumButton = new Button("Medium");
         mediumButton.setOnAction(event->{
             mines = 15;
             rows = 10;
@@ -342,8 +342,8 @@ Hard level: mines = 30;rows = 14;columns= 14
             root.setHgap(10);
             root.setVgap(10);
             
-(3)
-        Button hardButton = new Button("Hard");
+
+   Button hardButton = new Button("Hard");
         hardButton.setOnAction(event->{
             mines = 30;
             rows =14;
