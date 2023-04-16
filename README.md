@@ -69,9 +69,9 @@ After selecting the difficulty of the game, get the thunder number set by the di
 
 ***Interface Planing***  
 <img src=https://user-images.githubusercontent.com/130427783/232304317-31475a89-a4ce-4ff8-8e4e-63b3a73dc6e1.jpg width= "400px">
-![c4530c58a9f3d15707cd77761634624](https://user-images.githubusercontent.com/130427783/232304433-43d5eefc-0c29-4519-8045-5a4f33abb26b.jpg)  
-![43d85c04f60f987788aa020478c5f48](https://user-images.githubusercontent.com/130427783/232304490-7580b15c-c8ce-46dd-b7cc-fb56631596e8.jpg)  
-![353eef6554a2f3d93779a43d10613bc](https://user-images.githubusercontent.com/130427783/232304532-0fada794-d744-4b75-9562-9945388e8095.jpg)  
+<img src=https://user-images.githubusercontent.com/130427783/232304433-43d5eefc-0c29-4519-8045-5a4f33abb26b.jpg width = "400px">
+<img src=https://user-images.githubusercontent.com/130427783/232304490-7580b15c-c8ce-46dd-b7cc-fb56631596e8.jpg width = "400px">
+<img src=https://user-images.githubusercontent.com/130427783/232304532-0fada794-d744-4b75-9562-9945388e8095.jpg width = "400px">
 
 
 
