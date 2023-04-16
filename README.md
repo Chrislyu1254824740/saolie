@@ -2,7 +2,7 @@
 -[Purpose of the software](#Purpose-of-the-software)  
     -[Type of Software development process & reason](##Type-of-Software-development-process-&-reason)  
     -[Possible usage of your project](##Possible-usage-of-your-project)  
--[Software development plan](#Software-development-plan)
+-[Software development plan](#Software-development-plan)  
     -[Development Process](##Development-Process)    
     -[Members](##Menbers)  
     -[Schedule](##Schedule)  
