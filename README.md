@@ -6,7 +6,7 @@
     -[Development Process](#Development-Process)    
     -[Members](#Members)  
     -[Schedule](#Schedule)  
-    -
+    -[Algorithm](#Algorithm)
 
 
 
@@ -376,7 +376,19 @@ Hard level: mines = 30;rows = 14;columns= 14
    # Schedule
    This is the schedule of our team
    
-   ![屏幕截图 2023-04-16 210445](https://user-images.githubusercontent.com/130427783/232313390-bf5fd609-6877-4005-a3e7-54d32bd385ea.png)
+   ![屏幕截图 2023-04-16 210445](https://user-images.githubusercontent.com/130427783/232313390-bf5fd609-6877-4005-a3e7-54d32bd385ea.png)  
+   
+   # Algorithm
+   
+   
+
+(1) Random mine-laying
+
+Minesweeper game requires random mines in the minefield, the number of mines should not be too much, so it is impossible to judge whether there are mines around; But not too little, so that you get a big blank space when you click on it. A random number is generated using java's native Math.random() method, which is computed to convert the random number to an integer, which is the corner marker for the location of Thunder. The object of the game is to mark all the mines and open the other grids that are not mines.
+
+(2) Calculate the number of mines around the grid
+
+When the grid without thunder is clicked, it will display all the thunder number in the 8 grids around the grid, and the player can judge the location of the thunder through this number, so the calculation of the thunder number around is also very important.
 
 
 
