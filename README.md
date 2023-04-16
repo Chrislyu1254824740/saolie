@@ -208,6 +208,107 @@ The game interface is relatively simple compared with the minesweeper game, whic
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+    
+   ***Minefield layout***
+   
+    private void createGame() {
+        minesArray = new boolean[rows][columns];
+        counts = new int[rows][columns];
+        buttons = new Button[rows][columns];
+
+        remainingMines = mines;
+
+        // 生成地雷位置
+        Random random = new Random();
+        for (int i = 0; i < mines; i++) {
+            int row = random.nextInt(rows);
+            int column = random.nextInt(columns);
+            if (minesArray[row][column]) {
+                i--;
+            } else {
+                minesArray[row][column] = true;
+            }
+        }
+
+        // 计算每个方块周围的地雷数量
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                int count = 0;
+                for (int k = i - 1; k <= i + 1; k++) {
+                    for (int l = j - 1; l <= j + 1; l++) {
+                        if (k >= 0 && k < rows && l >= 0 && l < columns && minesArray[k][l]) {
+                            count++;
+                        }
+                    }
+                }
+                counts[i][j] = count;
+            }
+        }
+
+        // 创建按钮
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                buttons[i][j] = new Button();
+                buttons[i][j].setPrefSize(30, 30);
+                buttons[i][j].setStyle("-fx-font-size: 15px; -fx-background-color: #cccccc");
+            }
+        }
+
+        // 创建计时器
+        timeline = new Timeline(new KeyFrame(Duration.seconds(1), e -> {
+            secondsElapsed++;
+            timerLabel.setText("Time: " + secondsElapsed);
+        }));
+        timeline.setCycleCount(Timeline.INDEFINITE);
+        timeline.play();
+    }
+    
+   ***Mouse event***
+   
+   In this minesweeper design, we will use mouse events to respond to the player's actions, in which the left mouse button is used to open the grid that the player thinks there is no thunder, and the right mouse button is used to mark the grid that the player thinks there is thunder hidden below.
+   
+   private void handleLeftClick(int row, int column) {
+        Button button = buttons[row][column];
+        if (minesArray[row][column]) {
+            gameOver();
+            return;
+        }
+
+        int count = counts[row][column];
+        if (count == 0) {
+            button.setStyle("-fx-background-color: #ffffff");
+            revealAdjacentButtons(row, column);
+        } else {
+            button.setText(String.valueOf(count));
+            button.setStyle("-fx-background-color: #ffffff");
+        }
+
+        checkWin();
+    }
+
+    // 处理右键点击事件
+    private void handleRightClick(int row, int column) {
+        Button button = buttons[row][column];
+        if (button.getText().equals("!")) {
+            button.setText("");
+            remainingMines++;
+        } else if (button.getText().equals("")) {
+            button.setText("!");
+            remainingMines--;
+        }
+        remainingMinesLabel.setText("Mines: " + remainingMines);
+    }
+
+    // 揭开周围的方块
+    private void revealAdjacentButtons(int row, int column) {
+        for (int i = row - 1; i <= row + 1; i++) {
+            for (int j = column - 1; j <= column + 1; j++) {
+                if (i >= 0 && i < rows && j >= 0 && j < columns && buttons[i][j].getStyle().equals("-fx-font-size: 15px; -fx-background-color: #cccccc")) {
+                    handleLeftClick(i, j);
+                }
+            }
+        }
+    }
 
 
 
