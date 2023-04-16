@@ -42,8 +42,8 @@ We chose the Agile methodology.
 
 ***Design***
 
-(1)<font color = red>start()</font>  
-start method used to initialize game resources such as size of map,the number fo mines and the user interface of change the difficulty.
+(1)<font color = red>start()</font>
+start method used to initialize game resources such as size of map,the number fo mines and the user interface of change the difficulty.  
 (2)createGame()  
 createGame method used to create elements of the game such as generating mine positions, calculating mine positions around each block, creating buttons and timers.  
 (3)handleLeftClick() 
