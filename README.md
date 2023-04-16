@@ -357,7 +357,7 @@ Hard level: mines = 30;rows = 14;columns= 14
 ***Game Judgement***
 
 
- private void checkWin() {  
+    private void checkWin() {  
         int revealedCount = 0;  
         for (int i = 0; i < rows; i++) {  
             for (int j = 0; j < columns; j++) {  
