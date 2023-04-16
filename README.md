@@ -313,9 +313,9 @@ The game interface is relatively simple compared with the minesweeper game, whic
 
 ***Game difficulty selection***
 
-Easy level: mines = 10; rows = 8; columns = 8
-Medium level : mines = 15; rows= 10; columns = 10
-Hard level: mines = 30;rows = 14;columns= 14
+Easy level: mines = 10; rows = 8; columns = 8  
+Medium level : mines = 15; rows= 10; columns = 10  
+Hard level: mines = 30;rows = 14;columns= 14  
 
  public void start(Stage primaryStage) {
         primaryStage.setTitle("Minesweeper");
@@ -355,6 +355,7 @@ Hard level: mines = 30;rows = 14;columns= 14
             root.setVgap(10);
 
 ***Game Judgement***
+
 
 private void checkWin() {
         int revealedCount = 0;
