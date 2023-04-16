@@ -30,7 +30,8 @@ We chose the Agile methodology.
 
 # Software development plan
 ## Development process
-
+   
+ *Feasibility analysis：*  
 （1）Investment feasibility: Minesweeper occupies less memory and can be mounted on any platform, which has investment value.  
 （2）Financial feasibility: From the perspective of the beneficiaries, it doesn't take much money to develop this minesweeper.  
 （3）Organizational feasibility: feasible project planning, personnel allocation, good communication among team members, regular meetings and discussions to ensure timely delivery of projects.  
