@@ -57,7 +57,12 @@ used to quit the game.
 (7) *checkWin()*  
 used to Check whether the game is won.  
 (8) *gameWon()*    
-used to show the result of game
+used to show the result of game。
+
+***Process Planing***
+![屏幕截图 2023-04-16 185857](https://user-images.githubusercontent.com/130427783/232303048-b335e4ab-173a-4e1d-87c1-d67ceb0726ad.png)
+
+
 
 
   
