@@ -4,7 +4,7 @@
     -[Possible usage of your project](#Possible-usage-of-your-project)  
 -[Software development plan](#Software-development-plan)  
     -[Development Process](#Development-Process)    
-    -[Members](#Menbers)  
+    -[Members](#Members)  
     -[Schedule](#Schedule)  
     -
 
