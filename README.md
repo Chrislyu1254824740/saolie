@@ -311,8 +311,48 @@ The game interface is relatively simple compared with the minesweeper game, whic
     }
 
 
+***Game difficulty selection***
 
+Easy level: mines = 10; rows = 8; columns = 8
+Medium level : mines = 15; rows= 10; columns = 10
+Hard level: mines = 30;rows = 14;columns= 14
 
+(1) public void start(Stage primaryStage) {
+        primaryStage.setTitle("Minesweeper");
+
+        Button easyButton = new Button("Easy");
+        easyButton.setOnAction(event->{
+            mines = 10;
+            rows = 8;
+            columns = 8;
+            createGame();
+            GridPane root = new GridPane();
+            root.setPadding(new Insets(10));
+            root.setHgap(10);
+            root.setVgap(10);
+
+(2) Button mediumButton = new Button("Medium");
+        mediumButton.setOnAction(event->{
+            mines = 15;
+            rows = 10;
+            columns = 10;
+            createGame();
+            GridPane root = new GridPane();
+            root.setPadding(new Insets(10));
+            root.setHgap(10);
+            root.setVgap(10);
+            
+(3)
+        Button hardButton = new Button("Hard");
+        hardButton.setOnAction(event->{
+            mines = 30;
+            rows =14;
+            columns = 14;
+            createGame();
+            GridPane root = new GridPane();
+            root.setPadding(new Insets(10));
+            root.setHgap(10);
+            root.setVgap(10);
 
 
 
