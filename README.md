@@ -75,7 +75,7 @@ After selecting the difficulty of the game, get the thunder number set by the di
 (3) Difficut Level  
 (4) MineArea & MineNumberArea        
 (1)<img src=https://user-images.githubusercontent.com/130427783/232304317-31475a89-a4ce-4ff8-8e4e-63b3a73dc6e1.jpg width= "400px">
-(2)<img src=https://user-images.githubusercontent.com/130427783/232304433-43d5eefc-0c29-4519-8045-5a4f33abb26b.jpg width = "400px">  
+(2)<img src=https://user-images.githubusercontent.com/130427783/232304433-43d5eefc-0c29-4519-8045-5a4f33abb26b.jpg width = "400px">
 (3)<img src=https://user-images.githubusercontent.com/130427783/232304532-0fada794-d744-4b75-9562-9945388e8095.jpg width = "400px">
 (4)<img src=https://user-images.githubusercontent.com/130427783/232304490-7580b15c-c8ce-46dd-b7cc-fb56631596e8.jpg width = "400px">  
 
