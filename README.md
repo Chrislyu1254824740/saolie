@@ -375,6 +375,10 @@ Hard level: mines = 30;rows = 14;columns= 14
     
    ## Members
    
+   ![屏幕截图 2023-04-19 165934](https://user-images.githubusercontent.com/130427783/233024456-d9fb0bc1-e5a4-4bad-b250-57930c768925.png)
+   
+
+   
    ## Schedule
    This is the schedule of our team
    
