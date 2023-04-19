@@ -1,4 +1,5 @@
 # Outline
+-[Additional components](#Additional-components)
 -[Purpose of the software](#Purpose-of-the-software)  
     -[Type of Software development process & reason](#Type-of-Software-development-process-&-reason)  
     -[Possible usage of your project](#Possible-usage-of-your-project)  
@@ -9,6 +10,32 @@
     -[Algorithm](#Algorithm)  
     -[Current status of software](#Current-status-of-software)  
     -[Future Plan](#Future-Plan)
+
+
+# Additional components
+## URL of demo
+## Enviroments of software
+
+***Programming language***
+   C++, java,python.  
+***Minimum Hardware Requirements***
+  * A computer with a processor that supports SSE2 instruction set*
+  * At least 2GB of RAM * 
+  * A monitor with a resolution of 1024x768 or higher *  
+***Minimum Software Requirements***
+  * A C++ compiler such as GCC, Clang, or Visual Studio *
+  * A text editor or an integrated development environment (IDE) such as Visual Studio Code, Code::Blocks, or Eclipse *
+  * An operating system that supports the chosen compiler and IDE, such as Windows, Linux, or macOS *  
+***Require Packages***
+  * SFML (Simple and Fast Multimedia Library) for graphics and input handling *
+  * Boost for random number generation and other utilities *
+  * Qt for cross-platform GUI development *
+  * SDL (Simple DirectMedia Layer) for game development * 
+  * ncurses for console-based user interface *
+
+
+
+
 
 
 
