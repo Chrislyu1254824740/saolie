@@ -19,9 +19,9 @@
 ***Programming language***  
    C++, java,python.  
 ***Minimum Hardware Requirements***  
-  * A computer with a processor that supports SSE2 instruction set *
-  * At least 2GB of RAM * 
-  * A monitor with a resolution of 1024x768 or higher *  
+  * A computer with a processor that supports SSE2 instruction set 
+  * At least 2GB of RAM 
+  * A monitor with a resolution of 1024x768 or higher 
 ***Minimum Software Requirements***  
   * A C++ compiler such as GCC, Clang, or Visual Studio *
   * A text editor or an integrated development environment (IDE) such as Visual Studio Code, Code::Blocks, or Eclipse *
