@@ -20,17 +20,14 @@
 
    C++, java,python.  
 ***Minimum Hardware Requirements***
-
   * A computer with a processor that supports SSE2 instruction set*
   * At least 2GB of RAM * 
   * A monitor with a resolution of 1024x768 or higher *  
 ***Minimum Software Requirements***
-
   * A C++ compiler such as GCC, Clang, or Visual Studio *
   * A text editor or an integrated development environment (IDE) such as Visual Studio Code, Code::Blocks, or Eclipse *
   * An operating system that supports the chosen compiler and IDE, such as Windows, Linux, or macOS *  
 ***Require Packages***
-
   * SFML (Simple and Fast Multimedia Library) for graphics and input handling *
   * Boost for random number generation and other utilities *
   * Qt for cross-platform GUI development *
